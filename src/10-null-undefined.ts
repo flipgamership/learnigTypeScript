@@ -4,5 +4,9 @@
   let myNull: null = null;
   let myUndefined: undefined = undefined;
 
-  let myNumber: number = 0;
+  let myNumber: number | null = null;
+  myNumber = 12
+
+  let myString: string| undefined = undefined;
+  myString= 'ajshdasjdha'
 })();
